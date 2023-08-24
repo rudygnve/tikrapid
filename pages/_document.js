@@ -36,14 +36,14 @@ export default function Document() {
         {"}"}
         {"}"}
       </script>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-3V0X5N6NW4"></script>
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ID}`}></script>
       <script
         dangerouslySetInnerHTML={{
           __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-3V0X5N6NW4');
+          gtag('config', '${process.env.GOOGLE_ID}');
       `,
         }}
       <body>
