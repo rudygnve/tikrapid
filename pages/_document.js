@@ -44,8 +44,9 @@ export default function Document() {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', '${process.env.GOOGLE_ID}');
-      `,
+        `,
         }}
+      />
       <body>
         <Main />
         <NextScript />
