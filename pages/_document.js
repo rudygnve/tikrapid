@@ -27,15 +27,24 @@ export default function Document() {
       />
       <meta property="og:type" content="website" />
       <meta property="og:image" content="" />
-      <script type="application/ld+json">
-        {"{"}
-        "@context": "https://schema.org/", "@type": "WebSite", "name": "
-        {SITENAME}", "url": {SITEURI}, "potentialAction": {"{"}
-        "@type": "SearchAction", "target": "{"{"}search_term_string{"}"}",
-        "query-input": "required name=search_term_string"
-        {"}"}
-        {"}"}
-      </script>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: `
+        {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "${SITENAME}",
+          "url": "${SITEURI}/",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "{search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+        `,
+        }}
+      ></script>
       <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ID}`}></script>
       <script
         dangerouslySetInnerHTML={{
