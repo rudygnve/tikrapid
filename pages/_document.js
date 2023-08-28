@@ -68,6 +68,20 @@ export default function Document() {
         }}
       />
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6300896650470274" crossorigin="anonymous"></script>
+      <script
+        src="https://t.usermaven.com/lib.js"
+        data-key="UMNBwQv7GV"
+        data-tracking-host="https://events.usermaven.com"
+        data-autocapture="true"
+        defer
+      ></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+          window.usermaven = window.usermaven || (function(){(window.usermavenQ = window.usermavenQ || []).push(arguments);})
+        `,
+        }}
+      ></script>
       <body>
         <noscript
           dangerouslySetInnerHTML={{
