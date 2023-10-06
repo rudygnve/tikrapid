@@ -11,6 +11,24 @@ export default function Document() {
         name="description"
         content={`${SITENAME} is a free TikTok Video Downloader without watermark website. It allows users to download their favorite TikTok videos without any watermark or logo.`}
       />
+              <meta
+        property="og:title"
+        content="Free TikTok Video Downloader Without Watermark"
+      />
+      <meta
+        property="og:site_name"
+        content="Free TikTok Video Downloader Without Watermark"
+      />
+      <meta
+        name="description"
+        content={`${SITENAME} is a free TikTok Video Downloader without watermark website. It allows users to download their favorite TikTok videos without any watermark or logo.`}
+      />
+      <meta property="og:url" content={SITEURI} />
+      <meta
+        property="og:description"
+        content={`${SITENAME} is a free TikTok Video Downloader without watermark website. It allows users to download their favorite TikTok videos without any watermark or logo.`}
+      />
+      <meta property="og:type" content="website" />
       <script
         src="https://t.usermaven.com/lib.js"
         data-key="UMNBwQv7GV"
