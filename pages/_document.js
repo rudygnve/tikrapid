@@ -20,7 +20,7 @@ export default function Document() {
         `,
         }}
       ></script>
-
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6300896650470274" crossorigin="anonymous"></script>
       <body>
         <Main />
         <NextScript />
