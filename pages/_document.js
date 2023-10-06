@@ -7,6 +7,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <title>TikRapid - Free TikTok Video Downloader Without Watermark</title>
+      <link rel="canonical" href={SITEURI} />
       <meta
         name="description"
         content={`${SITENAME} is a free TikTok Video Downloader without watermark website. It allows users to download their favorite TikTok videos without any watermark or logo.`}
