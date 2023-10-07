@@ -119,7 +119,7 @@ export default function Home() {
                 TikTok Downloader
               </h1>
               <span className="text-slate-100 text-base sm:text-lg font-medium mb-8">
-                Download your favorite TikTok videos without watermark
+                Download your favorite TikTok videos and images without watermark
               </span>
               <form className="w-full p-0 sm:p-2 rounded-md bg-transparent sm:bg-white flex gap-3 sm:gap-0 flex-col sm:flex-row">
                 <div className="w-full flex-none sm:flex-1 flex items-center rounded-lg sm:rounded-none px-2 sm:py-0 py-2 bg-white sm:bg-transparent">
