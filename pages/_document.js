@@ -6,11 +6,11 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <title>TikRapid - Free TikTok Video Downloader Without Watermark</title>
+      <title>TikRapid - Free TikTok Video & Image Downloader Without Watermark</title>
       <link rel="canonical" href={SITEURI} />
       <meta
         name="description"
-        content={`${SITENAME} is a free TikTok Video Downloader without watermark website. It allows users to download their favorite TikTok videos without any watermark or logo.`}
+        content={`${SITENAME} is a free TikTok Video & Image Downloader without watermark website. It allows users to download their favorite TikTok videos without any watermark or logo.`}
       />
               <meta
         property="og:title"
@@ -22,12 +22,12 @@ export default function Document() {
       />
       <meta
         name="description"
-        content={`${SITENAME} is a free TikTok Video Downloader without watermark website. It allows users to download their favorite TikTok videos without any watermark or logo.`}
+        content={`${SITENAME} is a free TikTok Video & Image Downloader without watermark website. It allows users to download their favorite TikTok videos without any watermark or logo.`}
       />
       <meta property="og:url" content={SITEURI} />
       <meta
         property="og:description"
-        content={`${SITENAME} is a free TikTok Video Downloader without watermark website. It allows users to download their favorite TikTok videos without any watermark or logo.`}
+        content={`${SITENAME} is a free TikTok Video & Image Downloader without watermark website. It allows users to download their favorite TikTok videos without any watermark or logo.`}
       />
       <meta property="og:type" content="website" />
       <script
