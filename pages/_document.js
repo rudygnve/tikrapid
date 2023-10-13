@@ -6,7 +6,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <meta charSet="utf-8" />
-      <title>{`${SITENAME} - Free TikTok Video Downloader Without Watermark`}</title>
+      <title>{`${SITENAME} - Free TikTok Video & Image Downloader Without Watermark`}</title>
       <link rel="canonical" href={SITEURI} />
       <meta
         property="og:title"
