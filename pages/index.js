@@ -261,6 +261,16 @@ export default function Home() {
           />
         </Link>
       </section> */}
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6300896650470274" crossorigin="anonymous"></script>
+      <!-- Ad1 -->
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-6300896650470274"
+          data-ad-slot="6073943040"
+          data-ad-format="auto"
+          data-full-width-responsive="true">
+         </ins>
+      <script> (adsbygoogle = window.adsbygoogle || []).push({});</script>
       <section id="howtouse" className="w-full py-10 sm:py-16">
         <div className="w-full text-center flex flex-col gap-2 mb-8">
           <h2 className="text-slate-800 text-2xl sm:text-3xl font-bold">
